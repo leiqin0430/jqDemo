@@ -1,0 +1,31 @@
+html{
+    height: 100%;
+    width: 100%;
+    font-size: 16px;
+}
+body{
+    height: 100%;
+    margin: 0;
+    background: #eee;
+    padding: 10% 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100%;
+    margin: 0 10%;
+    background: aliceblue;
+    border-radius: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    overflow-y: scroll;
+}
+.container .item {
+    width: 21%;
+    height: 10%;
+    text-align: center;
+    border: 1px solid thistle;
+    border-radius: .25rem;
+    margin: 2%;
+    box-sizing: border-box;
+}

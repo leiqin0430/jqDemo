@@ -1,0 +1,15 @@
+html{
+    height: 100%;
+    width: 100%;
+    font-size: 16px;
+}
+body{
+    height: 100%;
+    margin: 0;
+    background: #eee;
+    padding: 10% 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100%;
+}
